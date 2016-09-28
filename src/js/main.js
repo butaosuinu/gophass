@@ -4,6 +4,7 @@ const $            = require('jquery');
 // tags
 require('../tag/home.tag');
 require('../tag/not-found.tag');
+require('../tag/resultList.tag');
 
 // Routing
 require('riot-router');
@@ -15,6 +16,7 @@ const RedirectRoute = riot.router.RedirectRoute;
 
 riot.router.routes([
 	new DefaultRoute({tag: 'home'}),
+	new Route({path: 'list', tag: 'result-list'}),
 	new NotFoundRoute({tag: 'not-found'})
 ]);
 
