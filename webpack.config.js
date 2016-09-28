@@ -22,7 +22,7 @@ module.exports = {
 				exclude: /node_modules/,
 				loader: 'riotjs-loader',
 				query: {
-					type: 'babel'
+					type: ['babel', 'scss']
 				}
 			}
 		],
