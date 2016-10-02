@@ -12,7 +12,7 @@
 			.uk-tab li a{
 				color: $aa;
 			}
-			@media (max-width: 880px){
+			@media (max-width: 768px){
 				font-size: 12px;
 				.uk-tab li a{
 					color: red;
