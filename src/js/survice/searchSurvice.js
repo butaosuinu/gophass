@@ -2,7 +2,6 @@ const axios = require('axios')
 const $     = require('jquery')
 
 const getEventSearchResult = () => {
-
 	const data = [
 		{
 			title: 'テストイベントタイトル',
