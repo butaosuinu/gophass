@@ -44,7 +44,7 @@
 	</style>
 
 	<script type="babel">
-		const seachSurvice = require('../../../js/survice/searchSurvice.js');
+		const seachSurvice = require('../../../js/service/searchService.js');
 		this.lists = seachSurvice.getEventSearchResult();
 	</script>
 </result-list-item>
